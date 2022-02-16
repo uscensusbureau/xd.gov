@@ -65,7 +65,7 @@ seo_excerpt:
                 <p>
                     What if researchers could answer questions by accessing data from around the globe
                     that they never actually touch or "see"? How do we transform the use of private data while keeping it
-                    entirely secure? The Deploying Privacy-Enhancing Technology (PET) projects seeks to increase our
+                    entirely secure? The Deploying Privacy-Enhancing Technology (PET) project seeks to increase our
                     understanding of remote execution, federated learning, secure multi-party computation, homomorphic
                     encryption, and differential privacy. This project will create a roadmap for deployments of these
                     technologies to transform how the Census Bureau collects, shares, and computes data and is being done
