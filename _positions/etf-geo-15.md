@@ -1,13 +1,12 @@
 ---
 layout: position
 title: Apply to the Fellowship
-cohort: Spring 2021
 grade: GS-15
 location: Remote
-pay_range_min: $112,890
-pay_range_max: $146,757
+pay_range_min: $131,178
+pay_range_max: $176,300
 subject_line: Emerging Technology Fellowship Application
-subtitle: Spring 2023 Cohort
+subtitle: 2023 Cohort
 travel: Minimal
 ---
 
@@ -31,6 +30,6 @@ travel: Minimal
 </div>
 
 <p>
-  All U.S. citizens welcome to apply. Applications are being accepted <strong>Novembber 1st, 2022 - December 15th, 2022</strong>.
+  All U.S. citizens welcome to apply. Applications are being accepted <strong>November 1st, 2022 - December 15th, 2022</strong>.
 </p>
 
