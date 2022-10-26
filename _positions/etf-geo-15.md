@@ -31,6 +31,6 @@ travel: Minimal
 </div>
 
 <p>
-  All U.S. citizens welcome to apply. Applications are being accepted on a rolling basis until filled through <strong>January 15, 2023</strong>.
+  All U.S. citizens welcome to apply. Applications are being accepted <strong>Novembber 1st, 2022 - December 15th, 2022</strong>.
 </p>
 

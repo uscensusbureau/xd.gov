@@ -23,7 +23,7 @@ seo_excerpt:
                 <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
                 <p class="usa-alert__text">
                     Applications are being accepted from <strong>November 1st, 
-                    2022 - January 15th, 2023</strong>. See details below.
+                    2022 - December 15th, 2022</strong>. See details below.
                 </p>
             </div>
         </div>
