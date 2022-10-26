@@ -12,18 +12,18 @@ seo_excerpt:
         <div class="section-breadcrumb">Apply to xD</div>
         <h1>Emerging Technology Fellowship</h1>
         <p>
-          We’re looking for purpose-driven technologists and innovators to 
-          join this unique fellowship experience with xD. The <b>Emerging 
-          Technology Fellowship (ETF)</b> recruits the best and brightest
-          technologists with expertise in emerging data technologies to
+          We’re looking for purpose-driven technologists and innovators to join 
+          this unique fellowship experience with xD. <strong>The Emerging 
+          Technology Fellowship (ETF)</strong> recruits the best and brightest 
+          technologists with expertise in emerging data technology trends to 
           build a better government for everyone.
         </p>
         <div class="usa-alert usa-alert--info">
             <div class="usa-alert__body">
-                <h4 class="usa-alert__heading">Applications Now Open</h4>
+                <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
                 <p class="usa-alert__text">
-                    Applications are now being accepted on a rolling basis until 
-                    filled through <strong>January 15, 2023</strong>. See details below.
+                    Applications are being accepted from <strong>November 1st, 
+                    2022 - January 15, 2023</strong>. See details below.
                 </p>
             </div>
         </div>
@@ -49,18 +49,21 @@ seo_excerpt:
 <section class="apply-overview">
   <div class="grid-container">
     <div class="grid-row">
-      <div class="section-breadcrumb">Why Should You Apply To The ETF?</div>
+      <div class="section-breadcrumb">Who should apply to the Fellowship?</div>
     </div>
     <div class="grid-row">
       <p>
-        Fellows are driven by a sense of curiosity and bring their know-how and intellect 
-        to projects while viewing challenges as a blank slate to introduce ground-breaking 
-        technical solutions. Enthusiasm to share their ideas, make a positive impact, and 
-        to guide others in the pursuit of the high-tech modernization of government is a 
-        driver for these leaders. Being unafraid to make waves when necessary while 
-        maintaining a healthy approach to risk mitigation, fellows bring an 
-        entrepreneurial spirit to their work and believe in their ability to bring lasting 
-        change as part of a dedicated team.
+        Motivated by curiosity, a desire to make lasting positive impact and to 
+        guide others in the pursuit of the high-tech modernization of 
+        government, Emerging Technology Fellows are unafraid to make waves and 
+        bring an entrepreneurial spirit to their work. Successful ETFs draw on 
+        their experience in advanced fields such as data science, machine 
+        learning, AI, natural language processing, web scraping, software 
+        development, secure multi-party computation, programming languages, and 
+        design. If you have full lifecycle project planning or management 
+        skills, have served as a liaison to the public or to senior leadership, 
+        or are an accomplished researcher or writer, you may be a great fit for 
+        the Emerging Technology Fellowship!
       </p>
     </div>
     {% 
@@ -93,6 +96,7 @@ seo_excerpt:
           {% include components/icon-list-item.html content="Data Governance & AI Policy" %}
           {% include components/icon-list-item.html content="Privacy-enhancing Technologies" %}
           {% include components/icon-list-item.html content="Algorithmic Bias" %}
+          {% include components/icon-list-item.html content="Technical Project Management" %}
         </ul>
       </div>
     </div>
