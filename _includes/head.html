@@ -1,58 +1,51 @@
-<!-- Basic Page Needs
-================================================== -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Mobile Specific Metas
-================================================== -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Meta tags
-================================================== -->
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary">
-
-<!-- Creator -->
-<meta name="twitter:creator" content="xD - US Census Bureau">
-<!-- Title -->
+<head>
+<meta charset="utf-8">
 {% if page.title %}
-  <title>{{ site.title }} | {{ page.title }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}" />
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
+{% else %}
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}">
+{% endif %}
+{% if page.image %}
+  <meta name="image" property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+{% endif %}
+{% if page.seo_excerpt %}
+  <meta property="og:description" content="{{ page.seo_excerpt | xml_escape }}">
+{% else %}
+  <meta property="og:description" content="{{ site.description | xml_escape }}">
+{% endif %}
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="xD - US Census Bureau">
+{% if page.title %}
   <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
 {% else %}
-  <title>{{ site.title }} | {{ site.description }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
-  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
+  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}">
 {% endif %}
-
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-
-<!-- Twitter Site -->
-<meta name="twitter:site" content="xD - US Census Bureau" />
-
-<!-- Description -->
-{% if page.seo_excerpt %}
-  <meta name="description" content="{{ page.seo_excerpt | xml_escape }}">
-  <meta property="og:description" content="{{ page.seo_excerpt | xml_escape }}" />
-  <meta property="twitter:description" content="{{ page.seo_excerpt | xml_escape }}" />
-{% else %}
-  <meta name="description" content="{{ site.description | xml_escape }}">
-  <meta property="og:description" content="{{ site.description | xml_escape }}" />
-  <meta property="twitter:description" content="{{ site.description | xml_escape }}" />
-{% endif %}
-
-<!-- Image -->
+<meta name="twitter:site" content="xD - US Census Bureau">
 {% if page.image %}
-  <link rel="image_src" href="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
-  <meta name="image" property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
   <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
   {% if page.image_accessibility %}
     <meta name="twitter:image:alt" content="{{ page.image_accessibility }}">
   {% endif %}
+{% endif %}
+{% if page.seo_excerpt %}
+  <meta property="twitter:description" content="{{ page.seo_excerpt | xml_escape }}">
+{% else %}
+  <meta property="twitter:description" content="{{ site.description | xml_escape }}">
+{% endif %}
+
+{% if page.title %}
+  <title>{{ site.title }} | {{ page.title }}</title>
+{% else %}
+  <title>{{ site.title }}</title>
+{% endif %}
+
+{% if page.seo_excerpt %}
+  <meta name="description" content="{{ page.seo_excerpt | xml_escape }}">
+{% else %}
+  <meta name="description" content="{{ site.description | xml_escape }}">
 {% endif %}
 
 <!-- Author -->
@@ -79,6 +72,11 @@
   <script src="{{ site.baseurl }}/assets/js/vendor/selectivizr-min.js"></script>
 <![endif]-->
 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!-- Favicons
 ================================================== -->
 
@@ -101,3 +99,4 @@
 
     gtag('config', 'G-3P989H6XN2');
   </script>
+</head>
