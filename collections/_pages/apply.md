@@ -8,32 +8,45 @@ seo_excerpt:
   of our growing emerging technologies team.
 ---
 
-<section class="apply-overview">
+<section class="intro">
     <div class="grid-container">
-        <div class="section-breadcrumb">Apply to xD</div>
+        <div class="breadcrumb">Apply to xD</div>
         <h1>Emerging Technology Fellowship</h1>
         <p>
           We’re looking for purpose-driven technologists and innovators to join this unique fellowship experience with xD at the Census Bureau. <strong>The Emerging Technology Fellowship (ETF)</strong> recruits the best and brightest technologists with expertise in emerging data technology trends to build a better government for everyone.
         </p>
         <div class="usa-alert usa-alert--info">
             <div class="usa-alert__body">
-                <h4 class="usa-alert__heading">Apply to the Fellowship</h4>
+                <h4 class="usa-alert__heading">Application Period Closed</h4>
                 <p class="usa-alert__text">
-                    Submissions will be accepted until <strong>11:59PM Eastern Time on November 30th, 2023</strong>.
-                    See details below.
+                    The application period for the Emerging Technology Fellowship has closed. We plan on recruiting again in the fall of 2024.
+                </p>
+                <p class="usa-alert__text">
+                    We are in the process of reviewing resumes and anticipate interviews taking place in January-February for the 2024 cohort. Thank you to all who applied and we’ll be in touch soon!
                 </p>
             </div>
         </div>
         {% for position in site.positions %}
             {% include components/position.html position=position %}
         {% endfor %}
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <h3>Our Next Cohort</h3>
+                <p>
+                    <strong>
+                        Applications for the 2024 Cohort of the ETF are now closed.
+                    </strong>
+                    Future openings will be listed on this page when we have more information to share.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="apply-overview">
+<section class="fellowship-details">
   <div class="grid-container">
     <div class="grid-row">
-      <div class="section-breadcrumb">Who should apply to the Fellowship?</div>
+      <div class="breadcrumb">Who should apply to the Fellowship?</div>
     </div>
     <div class="grid-row">
       <p>
@@ -48,7 +61,7 @@ seo_excerpt:
       image_path="/assets/img/praise/DiamondNwankwo.png"
     %}
     <div class="grid-row">
-      <div class="section-breadcrumb">What Specialized Experience Are We Looking For?</div>
+      <div class="breadcrumb">What Specialized Experience Are We Looking For?</div>
     </div>
     <div class="grid-row">
       <p>
@@ -89,9 +102,9 @@ seo_excerpt:
   </div>
 </section>
 
-<section class="apply-overview apply-faq">
+<section class="faq">
     <div class="grid-container">
-        <div class="section-breadcrumb">Frequently Asked Questions</div>
+        <div class="breadcrumb">Frequently Asked Questions</div>
         <div class="grid-row">
             <div class="grid-col-12">
                 <br/>

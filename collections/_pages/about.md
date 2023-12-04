@@ -4,23 +4,23 @@ image: /assets/img/pages/index/xd-og.png
 layout: page
 title: About
 seo_excerpt:
-  xD’s mission is oo advance the delivery of data-driven government services 
+  xD’s mission is oo advance the delivery of data-driven government services
   through new and transformative technologies.
 ---
 
-<section class="about-mission">
+<section class="mission">
   <div class="grid-container">
-    <div class="section-breadcrumb">Our Mission</div>
+    <div class="breadcrumb">Our Mission</div>
     <h2>
-      To advance the delivery of data-driven government services through new and 
+      To advance the delivery of data-driven government services through new and
       transformative technologies.
     </h2>
   </div>
 </section>
 
-<section class="about-priorities">
+<section class="priorities">
   <div class="grid-container">
-    <div class="section-breadcrumb">Current Focus Areas</div>
+    <div class="breadcrumb">Portfolios</div>
     <div class="grid-row">
       <div class="grid-col-6">
         <div class="about-priority">
@@ -42,18 +42,18 @@ seo_excerpt:
   </div>
 </section>
 
-<section class="about-ai">
+<section class="ai">
   <div class="grid-container">
-    <div class="section-breadcrumb">How We Work</div>
+    <div class="breadcrumb">How We Work</div>
     <p>
       xD works in multi-disciplinary teams of engineers, project managers, and
       data scientists to support the research and application of artificial
       intelligence solutions to the delivery of government services. Each team
-      works with federal stakeholders across government and often with the 
+      works with federal stakeholders across government and often with the
       support of outside partners, such as academic research groups, to apply
       the latest innovations in artificial intelligence to each project.
     </p>
   </div>
 </section>
 
-{% include components/hiring.html %}
+<!-- {% include components/hiring.html %} -->
