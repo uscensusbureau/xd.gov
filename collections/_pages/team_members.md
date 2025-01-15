@@ -8,19 +8,13 @@ seo_excerpt: meet the members of the xD team
 <div class="page-bios">
   <div class="grid-container">
     <div class="grid-row">
-      <div class="tablet:grid-col-5">
+      <div class="margin-bottom-3">
         <section class="mission">
-          <div class="grid-container">
-            <div class="breadcrumb">Our Team</div>
-            <div>The xD team represents an array of disciplines and skillsets. We're a remote-first team based in ten states across the country.</div>
-          </div>
+          <div class="breadcrumb">Our Team</div>
+          <div>The xD team represents an array of disciplines and skillsets. We're a remote-first organization spanning the United States.</div>
         </section>
       </div>
-      <div class="tablet:grid-col-7 margin-1 margin-left-neg-1 tablet:margin-0">
-        <section>
-          <div id="team-map"></div>
-        </section>
-      </div>
+    </div>
   </div>
 
   <section class="bios-content">
