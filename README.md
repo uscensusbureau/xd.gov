@@ -59,12 +59,6 @@ To update the syntax styling, add create a new style from these [examples](https
 
 Using the tools [Browserify](https://browserify.org/) and [UglifyJS](https://github.com/mishoo/UglifyJS), JavaScript used in the application can be transformed into a form appropriate for running in a browser (via Browserify) and minified (via UglifyJS) to reduce the bundle size sent to a user's browser.
 
-For example, the D3 map on the Teams page runs through the following CLI commands:
-```bash
-browserify teamMap.js -o mapBundle.js
-uglifyjs mapBundle.js --compress --mangle -o mapBundle.js
-```
-
 ## Analytics
 
 The file `_includes/head.html` contains script tags for the following analytics tools:
