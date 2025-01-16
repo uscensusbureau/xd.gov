@@ -8,8 +8,7 @@ image: /assets/img/projects/ai-toolkit/ai-toolkit-og.png
 img_alt_text: An isometric computer monitor displays the xD logo with a keyboard in front of it.
 partners:
   entities:
-    - { url: 'https://10x.gsa.gov', name: 'General Services Administration - 10x' }
-    - { url: 'https://www.dol.gov/agencies/odep', name: 'Department of Labor - Office of Disability Employment Policy' }
+    - { url: 'https://www.census.gov/', name: 'U.S. Census Bureau' }
 status: Ongoing
 project_url:
 featured: false
