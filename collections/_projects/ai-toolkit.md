@@ -19,5 +19,5 @@ portfolio: ai-toolkit
   AI/machine learning-based tools and techniques are quickly being adopted and deployed across governments at all levels and are continuously evolving. We’re building a toolkit designed to meet the unique needs of the public sector, highlighting the range of government processes that can benefit from a consideration of the impact of applied machine learning.
 </p>
 <p>
-  <a href="https://bias.xd.gov" class="usa-button usa-button-black" target="_blank">Get the Toolkit</a>
+  <a href="https://ai-toolkit.xd.gov" class="usa-button usa-button-black" target="_blank">Get the Toolkit</a>
 </p>
