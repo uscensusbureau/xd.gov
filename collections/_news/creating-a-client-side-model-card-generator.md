@@ -10,7 +10,7 @@ post_author: Curtis Mitchell
 ---
 
 <p>
-  Recently at xD we’ve been working on <a href="https://bias.xd.gov/resources/model-card-generator/" target="_blank">model card generators</a>. If you’re not familiar with model cards, they are brief documents that describe various details of a machine learning model such as what data it was trained on and how it’s expected to be used, and their usage is being widely adopted by ML and AI practitioners. Organizations like <a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Huggingface</a> and <a href="https://modelcards.withgoogle.com/about" target="_blank">Google</a> are big proponents, for example. The newest feature we have developed and are highlighting here is a <a href="https://bias.xd.gov/resources/model-card-generator/tool/" target="_blank">web-based model card generator</a>.
+  Recently at xD we’ve been working on <a href="https://ai-toolkit.xd.gov/resources/model-card-generator/" target="_blank">model card generators</a>. If you’re not familiar with model cards, they are brief documents that describe various details of a machine learning model such as what data it was trained on and how it’s expected to be used, and their usage is being widely adopted by ML and AI practitioners. Organizations like <a href="https://huggingface.co/docs/hub/model-cards" target="_blank">Huggingface</a> and <a href="https://modelcards.withgoogle.com/about" target="_blank">Google</a> are big proponents, for example. The newest feature we have developed and are highlighting here is a <a href="https://ai-toolkit.xd.gov/resources/model-card-generator/tool/" target="_blank">web-based model card generator</a>.
 </p>
 
 <p>
@@ -94,7 +94,7 @@ window.URL.revokeObjectURL(url);
 </p>
 
 <p>
-  You can see the code in the pull-request for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://bias.xd.gov/resources/model-card-generator/tool/" target="_blank">here</a>.
+  You can see the code in the pull-request for this feature on Github <a href="https://github.com/XDgov/bias-toolkit-frontend/pull/13" target="_blank">here</a>, and the deployed application <a href="https://ai-toolkit.xd.gov/resources/model-card-generator/tool/" target="_blank">here</a>.
 </p>
 
 <h2>Get Involved</h2>
