@@ -40,7 +40,7 @@ image_accessibility: 2024 xD Emerging Technology Fellows
 </div>
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/jess-stahl.jpg" alt="Jess Stahl">
-  <p><span class="title">Jess Stahl is excited to join the xD team as an Emerging Technology Fellow. Jess leads national initiatives on AI and privacy tech, often collaborating with non-profit, industry, philanthropic, and academic organizations. Jess has previously served as Vice President, Chief Data Officer, and has held multiple roles with companies building platforms to facilitate access to AI systems for evaluation, audit and research using privacy enhancing technologies (PETs). As an Emerging Technology Fellow, Jess looks forward contributing to federal AI initatives (e.g., ARIA, ARPA-H, National Secure Data Service, National AI Research Resource)</p>
+  <p><span class="title">Jess Stahl</span> is excited to join the xD team as an Emerging Technology Fellow. Jess leads national initiatives on AI and privacy tech, often collaborating with non-profit, industry, philanthropic, and academic organizations. Jess has previously served as Vice President, Chief Data Officer, and has held multiple roles with companies building platforms to facilitate access to AI systems for evaluation, audit and research using privacy enhancing technologies (PETs). As an Emerging Technology Fellow, Jess looks forward contributing to federal AI initatives (e.g., ARIA, ARPA-H, National Secure Data Service, National AI Research Resource)</p>
 </div>
 <div class="news-fellow">
   <img class="profile-img" src="{{ site.baseurl }}/assets/img/news/katie-johnson.jpg" alt="Katie Johnson">
