@@ -1,5 +1,7 @@
 <div class="col-12 tablet:grid-col-4 team-member-cards">
+  {% if member.permalink %}
   <a class="member-link" href="{{ site.baseurl }}{{ member.permalink }}">
+  {% endif %}
     <div class="team-member-card">
       <img alt="Image of {{member.name}}" src="{{ site.baseurl }}{{ member.image_path }}" />
       <h4 class="team-member-heading member-name">{{ member.name }}</h4>
@@ -16,5 +18,7 @@
         {% endfor %}
       </ul>
     </div>
+  {% if member.permalink %}
   </a>
+  {% endif %}
 </div>
