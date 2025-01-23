@@ -29,5 +29,3 @@ seo_excerpt: meet the members of the xD team
     </div>
   </section>
 </div>
-
-<script src="{{ site.baseurl }}/helpers/mapBundle.js"></script>
