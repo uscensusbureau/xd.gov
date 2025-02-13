@@ -1,7 +1,7 @@
 ---
 name: Katie Johnson
 title: Katie Johnson
-permalink: /team/katie-johnson/
+# permalink: /team/katie-johnson/
 image_path: /assets/img/import/bio/katie-johnson/katie-johnson.jpg
 job_title: Emerging Technology Fellow
 portfolio:

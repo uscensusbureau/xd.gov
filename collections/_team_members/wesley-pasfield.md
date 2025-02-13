@@ -1,7 +1,7 @@
 ---
 name: Wesley Pasfield
 title: Wesley Pasfield
-permalink: /team/wesley-pasfield/
+# permalink: /team/wesley-pasfield/
 image_path: /assets/img/import/bio/wesley-pasfield/wesley-pasfield.jpg
 job_title: Emerging Technology Fellow
 portfolio:

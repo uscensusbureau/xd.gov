@@ -1,7 +1,7 @@
 ---
 name: Anna Vasylytsya
 title: Anna Vasylytsya
-permalink: /team/anna-vasylytsya/
+# permalink: /team/anna-vasylytsya/
 image_id: attoZc4P4TFYJW2aW
 image_path: /assets/img/import/bio/anna-vasylytsya/anna-vasylytsya.jpg
 job_title: Emerging Technology Fellow

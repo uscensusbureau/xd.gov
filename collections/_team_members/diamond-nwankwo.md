@@ -1,7 +1,7 @@
 ---
 name: Diamond Nwankwo
 title: Diamond Nwankwo
-permalink: /team/diamond-nwankwo/
+# permalink: /team/diamond-nwankwo/
 image_id: attquY60OgMxdz6nJ
 image_path: /assets/img/import/bio/diamond-nwankwo/diamond-nwankwo.jpg
 job_title: Emerging Technology Fellow

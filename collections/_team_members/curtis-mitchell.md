@@ -1,7 +1,7 @@
 ---
 name: Curtis Mitchell
 title: Curtis Mitchell
-permalink: /team/curtis-mitchell/
+# permalink: /team/curtis-mitchell/
 image_id: attlVfSWFOzhOwYsK
 image_path: /assets/img/import/bio/curtis-mitchell/curtis-mitchell.jpg
 job_title: Emerging Technology Fellow

@@ -1,7 +1,7 @@
 ---
 name: Amari Cowan
 title: Amari Cowan
-permalink: /team/amari-cowan/
+# permalink: /team/amari-cowan/
 image_path: /assets/img/import/bio/amari-cowan/amari-cowan.jpg
 job_title: Emerging Technology Fellow
 portfolio:

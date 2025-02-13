@@ -1,7 +1,7 @@
 ---
 name: Mike Walton
 title: Mike Walton
-permalink: /team/mike-walton/
+# permalink: /team/mike-walton/
 image_id: attROSxw6AXAkJppo
 image_path: /assets/img/import/bio/mike-walton/mike-walton.jpg
 job_title: Emerging Technology Fellow

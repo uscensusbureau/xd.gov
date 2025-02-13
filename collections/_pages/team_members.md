@@ -1,5 +1,5 @@
 ---
-permalink: /team/
+# permalink: /team/
 image: /assets/img/pages/index/xd-og.png
 layout: page
 title: xD Team

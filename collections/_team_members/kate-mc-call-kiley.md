@@ -1,7 +1,7 @@
 ---
 name: Kate McCall-Kiley
 title: Kate McCall-Kiley
-permalink: /team/kate-mc-call-kiley/
+# permalink: /team/kate-mc-call-kiley/
 image_id: attAbROOShOJO6KDY
 image_path: /assets/img/import/bio/kate-mccall-kiley/kate-mccall-kiley.jpg
 job_title: Managing Director

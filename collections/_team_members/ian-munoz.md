@@ -1,7 +1,7 @@
 ---
 name: Ian Munoz
 title: Ian Munoz
-permalink: /team/ian-munoz/
+# permalink: /team/ian-munoz/
 image_id: attlQoVOY2bfunFKj
 image_path: /assets/img/import/bio/ian-munoz/ian-munoz.jpg
 job_title: Tech Lead

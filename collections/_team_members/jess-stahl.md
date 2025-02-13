@@ -1,7 +1,7 @@
 ---
 name: Jess Stahl
 title: Jess Stahl
-permalink: /team/jess-stahl/
+# permalink: /team/jess-stahl/
 image_path: /assets/img/import/bio/jess-stahl/jess-stahl.jpg
 job_title: Emerging Technology Fellow
 portfolio:

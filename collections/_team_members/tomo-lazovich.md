@@ -1,7 +1,7 @@
 ---
 name: Tomo Lazovich
 title: Tomo Lazovich
-permalink: /team/tomo-lazovich/
+# permalink: /team/tomo-lazovich/
 image_id: attR760W90B7VP511
 image_path: /assets/img/import/bio/tomo-lazovich/tomo-lazovich.jpg
 job_title: Emerging Technology Fellow
