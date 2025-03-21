@@ -30,8 +30,8 @@ jobs:
         env:
           JEKYLL_ENV: preview
 
-      - name: Deploy preview
-        uses: rossjrw/pr-preview-action@v1
+      - name: Deploy Preview to GitHub Pages
+        uses: actions/upload-artifact@v3
         with:
-          source-dir: ./_site/
-          preview-branch: master
+          name: jekyll-build
+          path: ./_site
