@@ -1,0 +1,36 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+
+      - name: Install and Build
+        if: github.event.action != 'closed' # Skip the build if the PR has been closed
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: preview
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_site/
