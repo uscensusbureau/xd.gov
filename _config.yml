@@ -4,6 +4,7 @@ description:
   "xD is an emerging technologies group that’s advancing the delivery of
   data-driven services through new and transformative technologies."
 url: "https://uscensusbureau.github.io"
+baseurl: ""
 permalink: pretty
 localhost: "localhost:4500"
 env: "production"
