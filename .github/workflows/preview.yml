@@ -25,6 +25,7 @@ concurrency:
 
 jobs:
   deploy-preview:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
