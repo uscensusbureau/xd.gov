@@ -6,7 +6,6 @@ on:
       - opened
       - reopened
       - synchronize
-      - closed
 
 env:
   PR_NUMBER: ${{ github.event.number }}
@@ -34,7 +33,7 @@ jobs:
 
       - name: Install and Build
         if: github.event.action != 'closed' # Skip the build if the PR has been closed
-        run: bundle exec jekyll build --baseurl "/xd.gov"
+        run: bundle exec jekyll build --baseurl ""
         env:
           JEKYLL_ENV: preview
 
