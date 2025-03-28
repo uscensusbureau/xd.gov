@@ -3,7 +3,7 @@ title: "xD - U.S. Census Bureau"
 description:
   "xD is an emerging technologies group that’s advancing the delivery of
   data-driven services through new and transformative technologies."
-baseurl: ""
+url: "https://uscensusbureau.github.io"
 permalink: pretty
 localhost: "localhost:4500"
 env: "production"
