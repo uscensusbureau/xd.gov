@@ -2,17 +2,10 @@ source "https://rubygems.org"
 
 # Note: when updating Ruby version update update .ruby-version file as well
 # to ensure Cloud.gov environment version of Ruby matches
-ruby '3.2.2'
+ruby '3.3.4'
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", "~> 4.2.1"
+# Version of Jekyll running on Github Pages: https://pages.github.com/versions/
+gem "jekyll", "3.10.0"
 
 gem "kramdown-parser-gfm"
 
@@ -32,6 +25,7 @@ group :jekyll_plugins do
    gem "jekyll-seo-tag"
    gem "jekyll-sitemap"
    gem "webrick"
+   gem "github-pages"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
