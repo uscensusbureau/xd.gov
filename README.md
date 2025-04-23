@@ -30,16 +30,11 @@ If you have errors with the above command, you may need to run Jekyll in a bundl
 bundle exec jekyll serve
 ```
 
-### Environment Variables
+## Builds and Deployments
 
-If you need to run the Airtable script locally, create a .env file at the project root with the following format:
+The primary branch of this repository is `master`, however the deployment branch is `gh-pages`. To ensure any updates are deployed to xd.gov, ensure you merge changes to `master` and then to `gh-pages`, which should be automatically detected and deployed by the Pages Action.
 
-```bash
-AIRTABLE_API_KEY="..."
-AIRTABLE_BASE_ID="..."
-```
-
-(contact @curt-mitch-census to get the exact values for these API tokens)
+Additionally, opening a new pull-request will trigger a preview-build action to ensure your changes render as expected.
 
 ## Updating Ruby
 
